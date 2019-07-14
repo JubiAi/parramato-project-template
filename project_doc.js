@@ -38,13 +38,10 @@ index.js
 1. CREATING FRONTEND :
 	- create a basic frontend for bot using below code.
 
-
-	require("bot-middleware-jubi").createFrontend({
-	    root:"https://yourdomain.com/path",
-	    socketDomain: "wss://yourdomain.com",
-	    socketPath: '/path/socket',
+	require("parramato").createFrontend({
+	    root:"http://localhost:8080",
 	    staticDirectory:__dirname+"/static",
-	    projectId:"myproject_100911645983",
+	    projectId:"button-jubimoney_065816519086",
 	    passphraseMiddleware:"YGUYGgyjgblgUGIYGIGkwhbiuashbo98u9283hr9h24rqIYGI932kbidbiadsYE",
 	    firebaseWebConfig:{
 	        apiKey: "AIzaSyAAqVdFN_8wbXK4W_YLZj2q6rF-ZrO9xKQ",
@@ -56,5 +53,3 @@ index.js
 	    },
 	    iconPath:"/icon.png"
 	 })
-
-2. 
