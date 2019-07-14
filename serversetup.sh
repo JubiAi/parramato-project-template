@@ -16,6 +16,7 @@ npm insatll pm2 -g
 
 #install mongodb
 
-sudo apt-get install -y mongodb-org
-sudo service mongod start
+sudo apt install -y mongodb
+sudo systemctl status mongodb
 #sudo service mongod restart
+#insatllation doc https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04
