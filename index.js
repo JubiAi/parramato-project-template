@@ -3,7 +3,7 @@ require("parramato").Server({
     socketLocalPath: '/socket',
     httpPort:8080,
     cluster:false,
-    dbUri:'mongodb://142.93.223.235:27017/bot',
+    dbUri:'mongodb://68.183.85.26:27017/bot',
     staticDirectory:__dirname+"/static",
     adapterPath:"/adapter",
     adapterDirectory:__dirname+"/adapter",
