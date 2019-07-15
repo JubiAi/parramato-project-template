@@ -9,6 +9,7 @@ require("parramato").Server({
     adapterDirectory:__dirname+"/adapter",
     projectId:"button-jubimoney_065816519086",
     directMultiplier:1,
+    dashbotKey:'AL2G7zplXMUdeukzxv5X4z7ILiwy6OjjQATWE8yB',
     fallbackMultiplier:0.8,
     passphraseMiddleware:"YGUYGgyjgblgUGIYGIGkwhbiuashbo98u9283hr9h24rqIYGI932kbidbiadsYE",
     timeoutSeconds:60,
