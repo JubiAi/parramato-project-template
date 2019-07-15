@@ -8,7 +8,7 @@ require("parramato").Server({
     adapterPath:"/adapter",
     adapterDirectory:__dirname+"/adapter",
     projectId:"button-jubimoney_065816519086",
-    dashbotKey:'AL2G7zplXMUdeukzxv5X4z7ILiwy6OjjQATWE8yB',
+    dashbotKey:'YQznvv6c4NbNLVwTnJVVRm6Dr8qrBOAdcaXepw29',
     directMultiplier:1,
     fallbackMultiplier:0.8,
     passphraseMiddleware:"YGUYGgyjgblgUGIYGIGkwhbiuashbo98u9283hr9h24rqIYGI932kbidbiadsYE",
