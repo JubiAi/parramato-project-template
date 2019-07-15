@@ -1,5 +1,5 @@
 require("parramato").Server({
-    root:"http://localhost/", // web - browser call, other media - parramato
+    root:"http://142.93.220.139/", // web - browser call, other media - parramato
     socketLocalPath: '/socket',
     httpPort:8080,
     cluster:false,
