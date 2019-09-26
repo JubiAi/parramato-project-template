@@ -10,8 +10,9 @@ systemctl status nginx
 # insatll nodejs
 
 sudo apt-get install nodejs
+npm install -g npm stable
 node -v 
-npm insatll pm2 -g
+npm install pm2 -g
 
 
 #install mongodb
