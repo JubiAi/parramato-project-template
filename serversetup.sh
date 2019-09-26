@@ -10,7 +10,8 @@ systemctl status nginx
 # insatll nodejs
 
 sudo apt-get install nodejs
-npm install -g npm stable
+curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
 node -v 
 npm install pm2 -g
 
