@@ -1,6 +1,6 @@
 require("parramato").Server(
   {
-    root: "<URL>",
+    root: "https://staging.jubi.ai/<PROJECT_ID>/",
     socketLocalPath: "/socket",
     httpPort: "<PORT>",
     cluster: false,
@@ -9,7 +9,7 @@ require("parramato").Server(
     adapterPath: "/adapter",
     adapterDirectory: __dirname + "/adapter",
     projectId: "<PROJECT_ID>",
-    dashbotKey: "<DASHBOT_KEY>",
+    dashbotKey: "",
     directMultiplier: 1,
     fallbackMultiplier: 0.8,
     passphraseMiddleware:
