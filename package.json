@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "parramato": "^1.0.6"
+    "parramato": "^1.0.7"
   },
   "devDependencies": {},
   "scripts": {
